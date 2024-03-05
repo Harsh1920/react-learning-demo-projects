@@ -1,0 +1,37 @@
+.modalBackDrop{
+    background-color: #ffffff82;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.modalContent{
+    background-color: #fff;
+    min-width: 320px;
+    color: #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 16px;
+    border-radius: 5px;
+
+}
+
+.modalHeader{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.modalTitle,
+.closeButton {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.closeButton {
+  cursor: pointer;
+}
