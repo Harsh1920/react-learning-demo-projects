@@ -4,7 +4,8 @@
 // import CustomModal from "./projects/custom-modal/CustomModal"
 // import SearchDebouncing from "./projects/search-debouncing/SearchDebouncing"
 // import FetchDemo from "./projects/fetch-demo/FetchDemo"
-import ThemeMode from "./projects/theme-mode/ThemeMode"
+// import ThemeMode from "./projects/theme-mode/ThemeMode"
+import PaginationDemo from "./projects/pagination-types/PaginationDemo"
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       {/* <CustomModal /> */}
       {/* <SearchDebouncing/> */}
       {/* <FetchDemo/> */}
-      <ThemeMode />
+      {/* <ThemeMode /> */}
+      <PaginationDemo />
     </>
   )
 }
