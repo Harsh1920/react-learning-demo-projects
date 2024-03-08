@@ -5,7 +5,8 @@
 // import SearchDebouncing from "./projects/search-debouncing/SearchDebouncing"
 // import FetchDemo from "./projects/fetch-demo/FetchDemo"
 // import ThemeMode from "./projects/theme-mode/ThemeMode"
-import PaginationDemo from "./projects/pagination-types/PaginationDemo"
+// import PaginationDemo from "./projects/pagination-types/PaginationDemo"
+import JobBoard from "./projects/job-data/JobBoard"
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       {/* <SearchDebouncing/> */}
       {/* <FetchDemo/> */}
       {/* <ThemeMode /> */}
-      <PaginationDemo />
+      {/* <PaginationDemo /> */}
+      <JobBoard/>
     </>
   )
 }

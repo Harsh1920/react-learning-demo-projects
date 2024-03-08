@@ -1,0 +1,31 @@
+.items {
+    display: grid;
+    row-gap: 16px;
+}
+
+.post {
+    background-color: #363636;
+    border: 1px solid #363636;
+    border-radius: 16px;
+    padding: 16px;
+    display: grid;
+    row-gap: 8px;
+    color: initial;
+}
+
+.post__title a {
+    text-decoration: underline;
+}
+
+.inactiveLink {
+    pointer-events: none !important;
+    cursor: default !important;
+}
+
+.btn-load-more {
+    margin-top: 50px;
+}
+
+.btn-load-more:disabled {
+    background-color: grey;
+}
