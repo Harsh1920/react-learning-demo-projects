@@ -6,7 +6,8 @@
 // import FetchDemo from "./projects/fetch-demo/FetchDemo"
 // import ThemeMode from "./projects/theme-mode/ThemeMode"
 // import PaginationDemo from "./projects/pagination-types/PaginationDemo"
-import JobBoard from "./projects/job-data/JobBoard"
+// import JobBoard from "./projects/job-data/JobBoard"
+import ReduxToolKit from "./projects/redux-toolkit/ReduxToolKit"
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
       {/* <FetchDemo/> */}
       {/* <ThemeMode /> */}
       {/* <PaginationDemo /> */}
-      <JobBoard/>
+      {/* <JobBoard/> */}
+      <ReduxToolKit />
     </>
   )
 }

@@ -4,17 +4,6 @@ import './Style.css'
 const API_ENDPOINT = 'https://hacker-news.firebaseio.com/v0'
 const ITEMS_PER_PAGE = 6;
 
-const JOB_DATA =
-{
-    "by": "jamilbk",
-    "id": 35908337,
-    "score": 1,
-    "time": 1683838872,
-    "title": "Firezone (YC W22) is hiring Elixir and Rust engineers",
-    "type": "job",
-    "url": "https://www.ycombinator.com/companies/firezone/jobs"
-}
-
 function JobData({ url, time, by, title }) {
 
     const formattedTime = new Date(time * 1000).toLocaleString();
